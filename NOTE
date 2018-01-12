@@ -1,5 +1,4 @@
 参考：
-------------------------------------
 
 教程：如何通过 Rollup 来打包 JavaScript
 http://www.zcfy.cc/article/how-to-bundle-javascript-with-rollup-step-by-step-tutorial-1254.html
@@ -7,3 +6,12 @@ http://www.zcfy.cc/article/how-to-bundle-javascript-with-rollup-step-by-step-tut
 例子：
 https://github.com/jlengstorf/learn-rollup
 
+
+
+用法
+------------------------------------
+通过 npm run rollup 后，生成 xxxx.min.js 库，通过以下方式引用
+
+import { Shape } from './test_rollup.min';
+let s = new Shape();
+s.dosome();

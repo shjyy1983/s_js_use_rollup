@@ -6,6 +6,9 @@ class Shape {
   constructor() {
 
   }
+  dosome() {
+    console.log('do some')
+  }
 }
 
 export default Shape;
