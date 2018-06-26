@@ -1,4 +1,8 @@
 参考：
+https://github.com/rollup/rollup
+
+官网教程
+https://rollupjs.org/guide/en
 
 教程：如何通过 Rollup 来打包 JavaScript
 http://www.zcfy.cc/article/how-to-bundle-javascript-with-rollup-step-by-step-tutorial-1254.html
@@ -6,6 +10,8 @@ http://www.zcfy.cc/article/how-to-bundle-javascript-with-rollup-step-by-step-tut
 例子：
 https://github.com/jlengstorf/learn-rollup
 
+Rollup.js 入门
+https://www.1zh.tech/2017/12/13/rollupjs-primer/
 
 
 用法
