@@ -10,7 +10,7 @@ import { minify } from 'uglify-es';
  * 一个入口文件的多个版本，须将 output 设为数组
  */
 export default {
-  input: 'src/index.js',
+  input: 'src/main.js',
   output: [
     {
       file: 'dist/test_rollup.es.js',

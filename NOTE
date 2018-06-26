@@ -1,3 +1,7 @@
+代码主要来自
+基于rollup打造工具库的实践
+
+
 参考：
 https://github.com/rollup/rollup
 
@@ -13,6 +17,8 @@ https://github.com/jlengstorf/learn-rollup
 Rollup.js 入门
 https://www.1zh.tech/2017/12/13/rollupjs-primer/
 
+基于rollup打造工具库的实践
+https://juejin.im/post/5a69d3016fb9a01cb64efd63
 
 用法
 ------------------------------------
