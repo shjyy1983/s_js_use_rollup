@@ -21,7 +21,7 @@ export default {
       file: 'dist/test_rollup.iife.js',
       format: 'iife', // 对于浏览器，编译成 IIFE 函数
       sourcemap: 'inline',
-      name: 'test_rollup'
+      name: 'SSTest'
     },
     {
       file: 'dist/test_rollup.cjs.js',
@@ -32,7 +32,7 @@ export default {
       file: 'dist/test_rollup.umd.js',
       format: 'umd', // 为了兼容浏览器和 Node.js，编译为 umd 格式
       sourcemap: 'inline',
-      name: 'test_rollup'
+      name: 'SSTest'
     }
   ],
   plugins: [
@@ -45,6 +45,6 @@ export default {
     babel({
       exclude: 'node_modules/**',
     }),
-    // (uglify({}, minify))
+    (uglify({}, minify))
   ]
 };
